@@ -6386,8 +6386,9 @@ void DSCB_TG_SBD(int d, int m, int y, char* sbd, PTR_CB& First, int xx, int yy) 
 	ndbang[4] = new char[30];
 	strcpy(ndbang[0],"SO HIEU MAY BAY");
 	strcpy(ndbang[1] , "MA CHUYEN BAY");
-	strcpy(ndbang[2] , "SAN BAY DEN");						// c++
-	strcpy(ndbang[3] , "THOI GIAN");
+	strcpy(ndbang[2] , "GIO KHOI HANH");						// c++
+	strcpy(ndbang[3] , "SO VE TRONG");
+	strcpy)ndbang[4] , "TRANG THAI");
 	int wcb[5] = { 17,17,8,3,3 };
 	gotoxy(90, 6);
 	cout << "DANH SACH CAC CHUYEN BAY KHOI HANH TRONG NGAY "; SetColor(1); cout_so(d); cout << "/"; cout_so(m); cout << "/"; cout_so(y); SetColor(7); cout << " DI TOI "; SetColor(1); cout << p->infocb.san_bay_den; SetColor(7);
